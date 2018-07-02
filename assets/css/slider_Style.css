@@ -1,0 +1,12 @@
+.bx-wrapper .bx-viewport{
+
+	height:300px !important; 
+	background-image: url("https://placeimg.com/1024/350/tech");
+	background-size: cover;
+
+}
+.bx-wrapper .bx-viewport .slider .content{
+	padding:50px 20px;
+	color:#fff;
+
+}

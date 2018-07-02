@@ -1,0 +1,241 @@
+html,body{
+	color: #333;	
+	font-family:sans-serif;
+}
+
+.upper{
+	text-transform: uppercase;
+}
+
+
+/* start Scroll Top */
+.scroll-top{
+	position: fixed;
+	bottom: 20px;
+	right: 20px;
+	z-index: 100;
+	background-color: #e12229;
+	color: #fff;	
+	padding: 0 14px;
+    font-size: 33px;
+    cursor: pointer;
+	display:none; 
+}
+/* / Scroll Top*/
+
+/* tart Navbar */
+.navbar{
+	background-color: #161616;
+	color: #fff;
+	padding:0 !important;
+}
+.navbar .navbar-brand img{
+	
+	background-image: url("assets/images/Agilia.png");
+	height: 85px;
+}
+
+#navbarNav{
+	height: 100%
+}
+#navbarNav a{
+ color: #fff;
+ font-size: 16px;
+
+}
+.active{
+	background-color: #ce3640;
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	border-radius: 5px;	
+}
+#navbarNav li:hover{
+ 	transform: 
+}
+.navbar-toggler 		{
+	border:1px solid #fff !important;
+}
+/*End Navbar */
+
+
+/*Satrt Header Section*/
+/*#header{
+	height: 580px;
+	background: url("../images/Untitled-5.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+}*/
+
+#header .overlay{
+	height: 100%;
+	width:  100%;
+	 background-color:rgba(230,230,230,.5)
+}
+#header .intro{
+
+	display: inline-block;
+	border-bottom: 3px solid #ce3640;
+	padding-bottom: 6px;
+}
+#header h1 span{
+	font-weight: 800;
+	color: #ce3640;
+}
+/*End Header Section*/
+
+/*start Fetures section */
+#features{
+
+	/*background: #635354;*/
+	position: relative;
+	color: #fff;
+   /* background: #1d1d1d;	*/
+    background: #161616;	
+/*	background: #ececec;*/	
+	min-height: 10px;
+}
+
+#features h3{
+	font-size: 22px;
+}
+#features h1{
+
+	border-bottom: 1px dashed #fff;
+}
+#features h1 span{
+	font-weight: 600;
+}
+#features .container{
+	background: #e12229;
+	/*background: #ce3640;*/
+}
+#features .features-heading{
+  padding: 25px 0px;
+  margin-left: 20px; 
+}
+#features .features-heading h1{
+	/*font-size: 100%;*/
+	font-size: 38px;
+	font-weight: 400;
+}
+
+#features .feature-items{
+	padding: 20px;
+}
+#features .feature-items{
+	
+	    border-left: 1px dashed #fff;	
+	    min-height: 350px;
+}
+/*End Features Section*/
+
+
+/*Start About Us*/
+#about-us{
+	
+	color: #333;
+	background-image: url("../images/Untitled-5.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+ }
+
+#about-us .overlay{
+	height: 100%;
+	width:  100%;
+	background-color: rgba(230,230,230,.5);	
+}
+
+
+#about-us h1{
+	display: inline-block;
+    color: #000;
+    border-bottom: 1px dashed #ce3640;
+    padding: 10px 20px;
+    margin: 28px 0;
+}
+#about-us .about-container{
+	padding: 25px;
+   /*background-color: #fff;*/
+}
+
+#about-us p{
+	font-size: 18px;
+    line-height: 1.5;
+}
+/*End About Us */
+
+/*Start Contact Us */
+#contact-us{
+    margin: 30px 0px;
+    padding: 0px 15px;
+	line-height: 1.8;
+	font-weight: 500px;
+	font-size: 18px;
+    font-weight: 500;
+    color: #6b6b6b;
+
+}
+#contact-us h1{
+	display: inline-block;
+	border-bottom: 1px dashed #ce3640;
+	padding-bottom: 10px;
+
+}
+#contact-us p{
+    width: 70%;
+	
+}
+#contact-us form div{
+ padding-bottom:10px;
+}
+#contact-us .map-container{
+	padding: 20px;
+	width:90%;
+	height:100%;
+}
+#contact-us #map{
+
+	height: 100%;
+	border: 1px solid #333;
+}
+/* End Contact Us */
+
+/* Start footer Section */
+footer{
+    
+    background-color: #333;	
+	color: #fff;
+}
+footer .links{
+	border-top:1px solid #333;
+	color: #6b6b6b;
+	background-color: #fff;
+
+}
+footer .links ul{
+	padding-left: 0;
+}
+footer .links li{
+	padding: 20px;
+	display: inline-block;	
+}
+footer .links li:hover{
+  color: #333;
+  cursor: pointer;
+}
+footer h4{
+	font-weight: 100;
+	font-size: 13px;
+	    padding: 0 10px 10px 0;
+	margin-bottom: 0px;
+}
+/* End Footer Section */
+
+
+/* Media Query */
+@media (max-width:767px){ /*Mobile & Tablet Rules*/
+
+ 
+
+}
